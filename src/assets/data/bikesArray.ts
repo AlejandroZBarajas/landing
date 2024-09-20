@@ -2,10 +2,10 @@ const bicicletas = {
     montaña: {
       crossCountry: [
         {
-          img: "",
-          title: "",
-          price: "",
-          transmission: ""
+          img: "epicSpecialized.png",
+          title: "Specialized  S-Works Epic 8",
+          price: "$290,000",
+          transmission: "SRAM XX SL Eagle"
         },
         {
           img: "",
@@ -22,52 +22,52 @@ const bicicletas = {
       ],
       enduro: [
         {
-          img: "",
-          title: "",
-          price: "",
-          transmission: ""
+          img: "enduro-specialized.png",
+          title: "S-Works Stumpjumper 15",
+          price: "$245,000",
+          recorrido: "Recorrido: 150mm"
         },
         {
           img: "",
           title: "",
           price: "",
-          transmission: ""
+          recorrido: "Recorrido: mm"
         },
         {
           img: "",
           title: "",
           price: "",
-          transmission: ""
+          recorrido: "Recorrido: mm"
         }
       ],
       downhill: [
         {
-          img: "",
-          title: "",
-          price: "",
-          transmission: ""
+          img: "specialized-demo.png",
+          title: "Specialized Demo Race",
+          price: "$240,000",
+          recorrido: "Recorrido: 200mm"
         },
         {
           img: "",
           title: "",
           price: "",
-          transmission: ""
+          recorrido: ""
         },
         {
           img: "",
           title: "",
           price: "",
-          transmission: ""
+          recorrido: ""
         }
       ]
     },
     carretera: {
       climbing: [
         {
-          img: "",
-          title: "",
-          price: "",
-          transmission: ""
+          img: "tarmac.png",
+          title: "S-Works Tarmac SL8",
+          price: "$290,000",
+          transmission: "SRAM RED AXS"
         },
         {
           img: "",
@@ -84,10 +84,10 @@ const bicicletas = {
       ],
       aero: [
         {
-          img: "",
-          title: "",
-          price: "",
-          transmission: ""
+          img: "tarmac.png",
+          title: "S-Works Tarmac SL8",
+          price: "$290,000",
+          transmission: "SRAM RED AXS"
         },
         {
           img: "",
@@ -104,10 +104,10 @@ const bicicletas = {
       ],
       endurance: [
         {
-          img: "",
-          title: "",
-          price: "",
-          transmission: ""
+          img: "rubaix.png",
+          title: "S-Works Roubaix SL8",
+          price: "$280,000",
+          transmission: "SRAM RED AXS"
         },
         {
           img: "",
