@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
+  logo :string = 'assets/logo.png'
+  title : string = "Find my bike"
+  tool: string = "bike finder"
 
 }

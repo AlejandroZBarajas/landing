@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-bike-card',
@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrl: './bike-card.component.css'
 })
 export class BikeCardComponent {
+  @Input() title: string = "";
+
+  constructor (){}
 
 }

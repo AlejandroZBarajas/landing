@@ -10,10 +10,6 @@ import { DividerComponent } from './components/divider/divider.component';
 @NgModule({
   declarations: [
 
-  
-    HeaderComponent,
-        BikeCardComponent,
-        DividerComponent
   ],
   imports: [
     CommonModule,
