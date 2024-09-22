@@ -16,6 +16,7 @@
 }
 #logoContainer{
     align-items: center;
+    height: 150px;
 }
 #toolContainer{
     align-items:center;
@@ -27,4 +28,8 @@
 }
 h1{
     font-size: 60px;
+}
+img{
+    height: 130px;
+    transform: rotate(210deg);
 }

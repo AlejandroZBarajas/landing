@@ -11,6 +11,7 @@ export class BikeCardComponent {
   @Input() description: string = '';
   @Input() imgDesc: string ='';
   @Input() labelColor:string='';
+  @Input() textColor: string ='';
 
   constructor (){}
 

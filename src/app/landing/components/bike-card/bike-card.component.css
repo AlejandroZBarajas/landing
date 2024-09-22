@@ -4,9 +4,7 @@
 p{
     color: white;
 }
-h2{
-    color: black
-}
+
 #bikeCard{
     background-color: rgb(38, 38, 38);
     display: flex;
@@ -31,13 +29,12 @@ h2{
 
 }
 #cardLabel{
-    border:solid;
     width: 45%;
     height: 15%;
-    border-color: blueviolet;
     display: flex;
     justify-content: center;
-    margin-left: 10%;
+    margin-left: 10%; 
+    
 }
 #paragraph{
     text-align: center;
