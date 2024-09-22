@@ -1,2 +1,27 @@
 <app-header></app-header>
-<app-bike-card></app-bike-card>
+<div id="body">
+    <div id="welcomeMsg">
+        <p>El ciclismo de montaña se practica en terrenos irregulares y exige bicicletas robustas para sortear obstáculos naturales, mientras que el ciclismo de carretera se realiza en pavimento con bicicletas ligeras, optimizadas para velocidad y largas distancias. Ambos requieren habilidades diferentes, pero comparten la pasión por el deporte.</p>
+        <h3>Seleccione una categoría.</h3>
+    </div>
+    <div id="options">
+        <div id="roadOpt">
+            <app-bike-card 
+            [title]="'Carretera'"
+                [description]="'Se divide en tres subcategorías: Aerodinamicas, Climbing y Endurance'"
+                [image]="''"
+                [imgDesc] ="''"
+                [labelColor]="'yellow'">
+            </app-bike-card>
+        </div>
+        <div id="mtbOpt">
+            <app-bike-card 
+            [title]="'Montaña'"
+                [description]="'Se divide en tres subcategorías: Cross-Country, Enduro o Trail y Down hill'"
+                [image]="''"
+                [imgDesc] ="''"
+                [labelColor] ="'red'">                
+            </app-bike-card>
+        </div>
+    </div>
+</div>

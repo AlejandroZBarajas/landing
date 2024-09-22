@@ -6,7 +6,11 @@ import { Component, Input } from '@angular/core';
   styleUrl: './bike-card.component.css'
 })
 export class BikeCardComponent {
-  @Input() title: string = "";
+  @Input() title: string = '';
+  @Input() image: string = '';
+  @Input() description: string = '';
+  @Input() imgDesc: string ='';
+  @Input() labelColor:string='';
 
   constructor (){}
 
