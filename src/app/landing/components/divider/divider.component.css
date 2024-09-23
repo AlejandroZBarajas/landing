@@ -4,8 +4,16 @@
     background-color: rgb(39, 39, 39);
     display: flex;
     justify-content: center;
-
+    align-items: center;
+    padding:0px;
+}
+h2{
+    font-size: xx-large;
 }
 h3{
-    font-size: xx-large;
+    font-size: larger;
+}
+#cat{
+    display: flex;
+    flex-direction: row-reverse;
 }

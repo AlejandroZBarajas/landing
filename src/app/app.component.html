@@ -4,8 +4,7 @@
         <p>El ciclismo de montaña se practica en terrenos irregulares y exige bicicletas robustas para sortear obstáculos naturales, mientras que el ciclismo de carretera se realiza en pavimento con bicicletas ligeras, optimizadas para velocidad y largas distancias. Ambos requieren habilidades diferentes, pero comparten la pasión por el deporte.</p>
         <h3>Seleccione una categoría.</h3>
     </div>
-    <div id="options">
-        <div id="roadOpt">
+    <div id="options">        
             <app-bike-card 
                 [cardColor]="'rgba(22, 21, 21, 0.74)'"
                 [title]="'Carretera'"
@@ -15,8 +14,6 @@
                 [labelColor]="'yellow'"
                 [textColor] = "'black'"  >  
             </app-bike-card>
-        </div>
-        <div id="mtbOpt">
             <app-bike-card 
                 [cardColor]="'rgba(22, 21, 21, 0.74)'"
                 [title]="'Montaña'"
@@ -26,43 +23,76 @@
                 [labelColor] ="'red'"
                 [textColor] = "'white'"  >          
             </app-bike-card>
-        </div>
     </div>
 </div>
-
-<app-divider
-    
-    [father]="'Carretera'"
+<app-divider  
+    [father]="''"
     [fatherColor]="'white'"
-    [son] = "''"
+    [son] = "'Carretera'"
     [color]="'rgb(39,39,39)'"
 ></app-divider>
 <div id="secSection">
     <app-bike-card 
         [cardColor]="'white'"
         [title]="'Climbing'"
-        [description]="''"
+        [description]="'Estas son las bicicletas mas ligeras de todas, lo que las hace ideales para subir los puertos de mayor pendiente.'"
         [image]="'climbingBike.jpg'"
         [imgDesc]="''"
         [labelColor]="'yellow'"
         [textColor]="'black'"
+        [descriptionColor]="'black'"
     ></app-bike-card>
     <app-bike-card 
         [cardColor]="'white'"
         [title]="'Endurance'"
-        [description]="''"
+        [description]="'Ideales para quienes buscan comodidad durante largos recorridos. Su geometría relajada las vuelve la opción mas estable a altas velocidades.'"
         [image]="'enduranceBike.jpg'"
-        [imgDesc]="''"
+        [imgDesc]="'Endurance bike'"
         [labelColor]="'yellow'"
         [textColor]="'black'"
+        [descriptionColor]="'black'"
     ></app-bike-card>
     <app-bike-card 
         [cardColor]="'white'"
         [title]="'Aero'"
-        [description]="''"
+        [description]="'Son las bicicletas mas aerodinánicas de los tres tipos. Se caracterizan por poner al ciclista en la posición mas agresiva y cuentan con la geometría mas ágil.'"
         [image]="'aeroBike.jpg'"
-        [imgDesc]="''"
+        [imgDesc]="'Aero bike'"
         [labelColor]="'yellow'"
         [textColor]="'black'"
+        [descriptionColor]="'black'"
     ></app-bike-card>
+</div>
+<app-divider 
+    [father]="'Aero bikes  '"
+    [fatherColor]="'white'"
+    [son] = "'/ Carretera'"
+    [sonColor]="'light-grey'"
+    [color]="'rgb(39,39,39)'"
+></app-divider>
+<div id="thirdSection">
+    <app-bike-specs
+        [brand]="'Specialized'"
+        [imgPath]="'tarmac.png'"
+        [imgDesc]="'Specialized S-works Tarmac'"
+        [model]="'S-Works Tarmac SL8 LTD'"
+        [price]="'$ 365,00.00'"
+        [groupset]="'SRAM RED AXS 12-speed'"
+    ></app-bike-specs>
+    <app-bike-specs
+        [brand]="'Trek'"
+        [imgPath]="'madone.jpg'"
+        [imgDesc]="'Trek Madone'"
+        [model]="'SRAM RED AXS 12-speed'"
+        [price]="'$ 289,999.00'"
+        [groupset]="'SRAM RED AXS E1  12-speed'"
+    ></app-bike-specs>
+    <app-bike-specs
+        [brand]="'Giant'"
+        [imgPath]="'propel.jpg'"
+        [imgDesc]="'Giant Propel'"
+        [model]="'Giant Propel Advance SL 0'"
+        [price]="'$264,990.00'"
+        [groupset]="'Shimano Dura-Ace 12-speed'"
+    ></app-bike-specs>
 </div>

@@ -5,11 +5,16 @@
     border:0px;
     color:white;
 }
+div{
+    border:0px;
+    border-color: black;
+}
 #body{
     background-color: black;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    min-width: fit-content;
 }
 #welcomeMsg{
     margin: 3%;
@@ -24,18 +29,12 @@ h3{
 }
 #options{
     min-width:100%;
-    border:solid;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 100px;
-    
 }
-#roadOpt, #mtbOpt{
-    width: 30%;
-    display: flex;
-    justify-content: space-evenly;
-}
-#secSection{
+#secSection,#thirdSection{
     padding-top: 5%;
     background-color: rgb(255, 255, 255);
     display: flex;

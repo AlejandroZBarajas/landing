@@ -1,0 +1,25 @@
+#card{
+    border:solid 1px;
+    border-color: darkgray;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 450px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+#imgContainer{
+    width: 90%;
+    border:solid;
+}
+h2,h3{
+    font-size: medium;
+    margin: 10px;
+    text-align: center;
+    display: block;
+    color:black
+}
+img{
+    width: 250px;
+}
