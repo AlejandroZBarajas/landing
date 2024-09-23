@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-divider',
@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrl: './divider.component.css'
 })
 export class DividerComponent {
+  @Input() father:string='';
+  @Input() fatherColor : string = '';
+  @Input() son:string='';
+  @Input() sonColor : string = '';
+  @Input() color : string = '';
+
+  constructor(){}
+
 
 }

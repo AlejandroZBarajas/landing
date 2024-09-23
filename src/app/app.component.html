@@ -7,7 +7,8 @@
     <div id="options">
         <div id="roadOpt">
             <app-bike-card 
-            [title]="'Carretera'"
+                [cardColor]="'rgba(22, 21, 21, 0.74)'"
+                [title]="'Carretera'"
                 [description]="'Se divide en tres subcategorías: Aerodinamicas, Climbing y Endurance'"
                 [image]="'road.jpg'"
                 [imgDesc] ="'imagen de ciclismo de carretera'"
@@ -17,7 +18,8 @@
         </div>
         <div id="mtbOpt">
             <app-bike-card 
-            [title]="'Montaña'"
+                [cardColor]="'rgba(22, 21, 21, 0.74)'"
+                [title]="'Montaña'"
                 [description]="'Se divide en tres subcategorías: Cross-Country, Enduro o Trail y Down hill'"
                 [image]="'mtb.jpg'"
                 [imgDesc] ="'imagen de ciclismo de montaña'"
@@ -26,4 +28,41 @@
             </app-bike-card>
         </div>
     </div>
+</div>
+
+<app-divider
+    
+    [father]="'Carretera'"
+    [fatherColor]="'white'"
+    [son] = "''"
+    [color]="'rgb(39,39,39)'"
+></app-divider>
+<div id="secSection">
+    <app-bike-card 
+        [cardColor]="'white'"
+        [title]="'Climbing'"
+        [description]="''"
+        [image]="'climbingBike.jpg'"
+        [imgDesc]="''"
+        [labelColor]="'yellow'"
+        [textColor]="'black'"
+    ></app-bike-card>
+    <app-bike-card 
+        [cardColor]="'white'"
+        [title]="'Endurance'"
+        [description]="''"
+        [image]="'enduranceBike.jpg'"
+        [imgDesc]="''"
+        [labelColor]="'yellow'"
+        [textColor]="'black'"
+    ></app-bike-card>
+    <app-bike-card 
+        [cardColor]="'white'"
+        [title]="'Aero'"
+        [description]="''"
+        [image]="'aeroBike.jpg'"
+        [imgDesc]="''"
+        [labelColor]="'yellow'"
+        [textColor]="'black'"
+    ></app-bike-card>
 </div>

@@ -6,7 +6,6 @@ p{
 }
 
 #bikeCard{
-    background-color: rgba(22, 21, 21, 0.74);
     display: flex;
     flex-wrap: wrap;
     border-radius: 25px;
@@ -22,7 +21,6 @@ p{
     width: 85%;
     height: 250px;
     border-radius: 15%;
-    background-color: rgb(25, 0, 255);
     display: flex;
     flex-wrap: wrap;
     flex-direction:column-reverse;
@@ -56,4 +54,5 @@ img{
     align-self: center;
     border-radius: 15px;
     width: 400px;
+    height: 270px;
 }

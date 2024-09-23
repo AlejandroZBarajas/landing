@@ -35,3 +35,10 @@ h3{
     display: flex;
     justify-content: space-evenly;
 }
+#secSection{
+    padding-top: 5%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
