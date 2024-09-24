@@ -1,0 +1,13 @@
+<div id="bikeCard" [ngStyle]="{'background-color':cardColor}">
+    <div id="imgContainer">
+        <div id="cardImage">
+            <img [src]="image" [alt]="imgDesc">
+        </div>
+        <div id="cardLabel" [ngStyle]="{'background-color': labelColor}">
+            <h2 [ngStyle]="{'color':textColor}">{{title}}</h2>
+        </div>
+    </div>
+    <div id="paragraph">
+        <p [ngStyle]="{'color':descriptionColor}">{{description}}</p>
+    </div>
+</div>

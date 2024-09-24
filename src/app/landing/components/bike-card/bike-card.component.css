@@ -1,0 +1,56 @@
+*{
+    color: white;
+}
+
+
+#bikeCard{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 25px;
+    width: 450px;
+    height: 400px;
+    padding-top:5%;
+    padding-right: 3%;
+    justify-content: space-around;
+
+}
+#imgContainer{
+    margin-top: 5%;
+    width: 85%;
+    height: 250px;
+    border-radius: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column-reverse;
+}
+#cardImage{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#cardLabel{
+    position: absolute;
+
+    float: inline-end;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%; 
+    
+    
+}
+#paragraph{
+    text-align: center;
+    display: inline;
+    width: 80%;
+}
+img{
+    position: relative;
+    align-self: center;
+    border-radius: 15px;
+    width: 400px;
+    height: 270px;
+}
